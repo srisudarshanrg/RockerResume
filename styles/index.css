@@ -1,0 +1,144 @@
+body {
+    background-color: rgb(193, 220, 243);
+}
+
+.nav {
+    border-radius: 35px;
+    background-color: rgb(41, 184, 250);
+    display: flex;
+    flex-direction: row;
+    font-size: 1.6rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 0px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 105px;
+    font-size: 1.7rem;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.nav .brand {
+    margin-left: 24%;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav a:hover {
+    color: rgb(95, 93, 93);
+    transition: 0.3s;
+}
+
+/* actual resume */
+.resume {
+    background-color: #fff;
+    border-radius: 25px;
+    -webkit-box-shadow: 0 0 45px cyan;
+    box-shadow: 0 0 45px cyan;
+    padding: 25px;
+    margin-top: 30px;
+    width: 65%;
+    margin-left: 16%;
+}
+
+.resume-head {
+    font-family: 'Ubuntu', sans-serif;
+    border-left: 3px solid darkblue;
+    padding-left: 10px;
+}
+
+/* name-section */
+.name-sect {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.name-sect img {
+    width: 7%;
+    border-radius: 100%;
+    border: 3px solid darkblue;
+    padding: 5px;
+    float: left;
+    margin-right: 15px;
+    aspect-ratio: 1;
+}
+
+.name-sect h2 {
+    font-size: 1.7rem;
+    color: darkblue;
+    margin-left: 15px;
+    display: block;
+}
+
+.text {
+    line-height: 0.5;
+}
+
+.name-sect .text h3 {
+    font-weight: 500;
+}
+
+/* personal details section */
+.personal-details {
+    font-family: 'Poppins', sans-serif;
+}
+
+.personal-details table {
+    width: 35%;
+    border: 1px solid;
+    padding: 10px;
+}
+
+/* education */
+.education {
+    font-family: 'Poppins', sans-serif;
+}
+
+.education table {
+    width: 45%;
+}
+
+/* skillset */
+.skillset {
+    font-family: 'Poppins', sans-serif;
+}
+
+.skill-head {
+    font-size: 1rem;
+    font-weight: bold;
+    color: darkblue;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.description {
+    font-size: 0.9rem;
+}
+
+/* contact details */
+.contact-details {
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-details table {
+    width: 42%;
+}
+
+.contact-details table a {
+    text-decoration: none;
+    color: blue;
+}
+
+.contact-details table a:hover {
+    color: darkblue;
+    transition: 0.3s;
+}
+
+/* making resume as grid layout */
